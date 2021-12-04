@@ -20,7 +20,7 @@ nav img{
   width: 100px;
 }
 .sidenav{
-  width: 150px;
+  width: 215px;
 }
 p {
   line-height: 2rem;
@@ -116,6 +116,10 @@ p {
 .sidenav-trigger {
   color: #26a69a;
 }
+#nav-mobile img{
+  width: 150px;
+  margin: 120px 30px;
+}
 iframe{
   width: 800px; 
   height: 450px;
@@ -134,7 +138,7 @@ iframe{
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
+    top: 10%;
   }
   #index-banner .section {
     top: 10%;
@@ -142,17 +146,24 @@ iframe{
   iframe{
   width: 500px; 
   height: 250px;
-}
-.collapsible{
-  width: 100%;
-  margin: auto;
-}
-.price{
-  margin: 3px 10px;
-}
-.mobile{
-  width: 100%!important;
-}
+  }
+  .collapsible{
+    width: 100%;
+    margin: auto;
+  }
+  .price{
+    margin: 3px 10px;
+  }
+  .mobile{
+    width: 100%!important;
+  }
+  .container-album{
+    width: 300px;
+    height: 350px;
+  } 
+  .container-album button {
+      height: 15%;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -162,15 +173,16 @@ iframe{
   iframe{
   width: 250px; 
   height: 250px;
-}
+  }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
+  .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
 
-footer.page-footer {
-  margin: 0;
+  footer.page-footer {
+    margin: 0;
+  }
 }
