@@ -1,10 +1,11 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+@font-face {
+ font-family: "avenir";
+ src: url("assets/style/font/Avenir Roman.otf") format("otf"),
+}
+
+html body{
+  font-family: "avenir";
+}
 
 .color-institut{
   color: #ffb496a1!important;

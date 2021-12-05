@@ -51,16 +51,11 @@ $(() => {
 
 	const initAlbum = () => {
 
-
-
-
 		$(".album").on("click", () => {
 			//$('.content-change').hide('slow');
 			$('.album-photo').slideToggle('slow');
 		});
 
-		
-			
 		
 	
 	};
