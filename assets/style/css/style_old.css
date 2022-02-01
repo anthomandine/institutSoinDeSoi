@@ -1,0 +1,202 @@
+@font-face {
+ font-family: "avenir";
+ src: url("assets/style/font/Avenir Roman.otf") format("otf"),
+}
+
+html body{
+  font-family: "avenir";
+}
+
+.bold{
+  font-weight: bold;
+}
+.size-20{
+  font-size: 20px;
+}
+.italic{
+  font-style: italic;
+}
+.color-institut{
+  color: #ffb496a1!important;
+}
+.background-institut{
+  background-color: #ffb496a1!important;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+nav img{
+  width: 100px;
+  height: 65px;
+}
+.sidenav{
+  width: 215px;
+}
+p {
+  line-height: 2rem;
+}
+
+.album-photo{
+  display: none;
+  position: absolute;
+  width: 100%;
+  background: #ffb496a1;
+}
+.price{
+  display: flex;
+  justify-content: space-between;
+  margin: 2px 50px;
+}
+.price span{
+  margin-left: 50px;
+}
+.list-tarif{
+  display: flex;
+  flex-direction: column;
+}
+.collapsible{
+  width: 80%;
+  margin: auto;
+}
+.collapsible-header{
+  justify-content: center;
+  font-weight: bold;
+}
+.collapsible-header:hover{
+  opacity: 0.6;
+}
+.presta h5{
+  font-style: italic;
+}
+.presta p, .presta h6{
+  width: 80%;
+  margin: auto;
+}
+.container-album {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+                0 9px 46px 8px rgba(0, 0, 0, 0.12), 
+                0 11px 15px -7px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.container-album img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container-album button {
+    height: 10%;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    padding: 1em;
+    display: flex;
+    z-index: 1;
+}
+
+.container-album button .arrow {
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+#right-btn {
+    margin: auto 0 auto -2em;
+}
+
+#right-btn .arrow {
+    transform: rotate(-45deg);
+}
+
+#left-btn {
+    z-index: 0;
+    margin: auto -2em auto 0;
+}
+
+#left-btn .arrow {
+    transform: rotate(135deg);
+}
+.sidenav-trigger {
+  color: #26a69a;
+}
+#nav-mobile img{
+  width: 150px;
+  height: 120px;
+  margin: 120px 30px;
+}
+iframe{
+  width: 800px; 
+  height: 450px;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 10%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  iframe{
+  width: 500px; 
+  height: 250px;
+  }
+  .collapsible{
+    width: 100%;
+    margin: auto;
+  }
+  .price{
+    margin: 3px 10px;
+  }
+  .mobile{
+    
+  }
+  .container-album{
+    width: 300px;
+    height: 350px;
+  } 
+  .container-album button {
+      height: 15%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  iframe{
+  width: 250px; 
+  height: 250px;
+  }
+
+  .icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+
+  footer.page-footer {
+    margin: 0;
+  }
+}
