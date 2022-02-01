@@ -1,6 +1,5 @@
 $(() => {
 
-
 	const carousel = () => {
 		const img = document.getElementById('carousel');
 		const rightBtn = document.getElementById('right-btn');
@@ -55,9 +54,6 @@ $(() => {
 			//$('.content-change').hide('slow');
 			$('.album-photo').slideToggle('slow');
 		});
-
-		
-	
 	};
 
 

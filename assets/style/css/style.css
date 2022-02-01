@@ -7,6 +7,15 @@ html body{
   font-family: "avenir";
 }
 
+.bold{
+  font-weight: bold;
+}
+.size-20{
+  font-size: 20px;
+}
+.italic{
+  font-style: italic;
+}
 .color-institut{
   color: #ffb496a1!important;
 }
@@ -19,6 +28,7 @@ nav .brand-logo {
 }
 nav img{
   width: 100px;
+  height: 65px;
 }
 .sidenav{
   width: 215px;
@@ -37,6 +47,9 @@ p {
   display: flex;
   justify-content: space-between;
   margin: 2px 50px;
+}
+.price span{
+  margin-left: 50px;
 }
 .list-tarif{
   display: flex;
@@ -119,13 +132,13 @@ p {
 }
 #nav-mobile img{
   width: 150px;
+  height: 120px;
   margin: 120px 30px;
 }
 iframe{
   width: 800px; 
   height: 450px;
 }
-
 .parallax-container {
   min-height: 380px;
   line-height: 0;
