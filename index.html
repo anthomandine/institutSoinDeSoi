@@ -12,6 +12,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="assets/style/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="assets/style/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/style/css/styleAlbum.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script type="text/javascript" src="assets/js/jgallery.js"></script>
 </head>
 <body>
   <nav class="white" role="navigation">
@@ -38,7 +40,7 @@
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container">
+  <div id="index-banner" class="parallax-container" style="box-shadow: 0 5px 20px 0px rgba(0,0,0,0.25)">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
@@ -83,7 +85,7 @@
     </div>
   </div>
 
-  <div class="parallax-container valign-wrapper">
+  <div class="parallax-container valign-wrapper" style="box-shadow: 0 5px 20px 0px rgba(0,0,0,0.25)">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -107,7 +109,11 @@
     </div>
   </div>
 
-  <div class="parallax-container valign-wrapper">
+  <div id="gallery">
+    <button id="closeAlbum" title="Quitter l'album photo">X</button>
+  </div>
+
+  <div class="parallax-container valign-wrapper" style="box-shadow: 0 5px 20px 0px rgba(0,0,0,0.25)">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
@@ -121,13 +127,14 @@
     <div class="parallax"><img src="assets/style/images/background3.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <div class="album-photo">
+  <!--<div class="album-photo">
       <div class="container-album">
             <button id="left-btn"><i class="arrow"></i></button>
             <img id="carousel" src="" alt="">
             <button id="right-btn"><i class="arrow"></i></button>
       </div>
-  </div>
+  </div>-->
+  
 
   <footer class="page-footer background-institut">
     <div class="container">
@@ -165,5 +172,6 @@
   <script src="assets/js/init.js"></script>
   <script src="assets/js/script.js"></script>
 
+  
   </body>
 </html>

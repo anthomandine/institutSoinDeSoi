@@ -1,0 +1,38 @@
+#gallery{
+    position: relative;
+    display: none;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+#closeAlbum{
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+}
+#closeAlbum:hover{
+    transform: scale(1.2);
+    background-color: #ffb496a1;
+}
+.j-gallery{
+    background-color: #ffb49673!important;
+    color: #000!important;
+    height: 80vh!important;
+    margin: 20px;
+    box-shadow: 4px 7px 20px 5px rgb(0 0 0 / 30%);
+}
+.j-gallery-preview-content{
+    background-size: contain!important;
+}
+.j-gallery-screen-icon{
+    display: none!important;
+}
+
+@media only screen and (max-width : 650px) {
+    .j-gallery{
+        height: 60vh!important;
+    }
+  }
