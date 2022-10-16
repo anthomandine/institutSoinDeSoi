@@ -48,113 +48,84 @@ $(() => {
 		leftBtn.addEventListener("click", moveLeft);
 	};*/
 
+	
+
 	const carousel2 = () => {
 		document.querySelector('#gallery').appendChild(JGallery.create([{
 			title: 'Images',
 			items: [
 				{
-					url: 'assets/style/images/galerie_photo1.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo1_mini.jpg',
-					title: 'Photo1',
-					hash: 'photo-1'
+					url: 'assets/style/images/album/entre_institut.jpg',
+					thumbUrl: 'assets/style/images/album/entre_institut_thumb.jpg',
+					title: 'Entrée de l\'institut',
+					hash: 'entre_institut'
 				},
 				{
-					url: 'assets/style/images/galerie_photo2.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo2_mini.jpg',
-					title: 'Photo2',
-					hash: 'photo-2'
+					url: 'assets/style/images/album/deventure_institut.jpg',
+					thumbUrl: 'assets/style/images/album/deventure_institut_thumb.jpg',
+					title: 'Deventure de l\'institut',
+					hash: 'deventure_institut'
 				},
 				{
-					url: 'assets/style/images/galerie_photo3.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo3_mini.jpg',
-					title: 'Photo3',
-					hash: 'photo-3'
+					url: 'assets/style/images/album/onglerie.jpg',
+					thumbUrl: 'assets/style/images/album/onglerie_thumb.jpg',
+					title: 'Onglerie',
+					hash: 'onglerie'
 				},
 				{
-					url: 'assets/style/images/galerie_photo4.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo4_mini.jpg',
-					title: 'Photo4',
-					hash: 'photo-4'
+					url: 'assets/style/images/album/cabine_soin.jpg',
+					thumbUrl: 'assets/style/images/album/cabine_soin_thumb.jpg',
+					title: 'Cabine de soin',
+					hash: 'cabine_soin'
 				},
 				{
-					url: 'assets/style/images/galerie_photo5.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo5_mini.jpg',
-					title: 'Photo5',
-					hash: 'photo-5'
+					url: 'assets/style/images/album/cabine.jpg',
+					thumbUrl: 'assets/style/images/album/cabine_thumb.jpg',
+					title: 'Cabine',
+					hash: 'cabine'
 				},
 				{
-					url: 'assets/style/images/galerie_photo6.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo6_mini.jpg',
-					title: 'Photo6',
-					hash: 'photo-6'
+					url: 'assets/style/images/album/materiels.jpg',
+					thumbUrl: 'assets/style/images/album/materiels_thumb.jpg',
+					title: 'Materiels',
+					hash: 'materiels'
 				},
 				{
-					url: 'assets/style/images/galerie_photo7.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo7_mini.jpg',
-					title: 'Photo7',
-					hash: 'photo-7'
+					url: 'assets/style/images/album/produits_physio_vente.jpg',
+					thumbUrl: 'assets/style/images/album/produits_physio_vente_thumb.jpg',
+					title: 'Produits Physio vente',
+					hash: 'produits_physio_vente'
 				},
 				{
-					url: 'assets/style/images/galerie_photo8.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo8_mini.jpg',
-					title: 'Photo8',
-					hash: 'photo-8'
+					url: 'assets/style/images/album/produits_physiodermie.jpg',
+					thumbUrl: 'assets/style/images/album/produits_physiodermie_thumb.jpg',
+					title: 'Produits Physiodermie',
+					hash: 'produits_physiodermie'
 				},
 				{
-					url: 'assets/style/images/galerie_photo9.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo9_mini.jpg',
-					title: 'Photo9',
-					hash: 'photo-9'
+					url: 'assets/style/images/album/produits_vente.jpg',
+					thumbUrl: 'assets/style/images/album/produits_vente_thumb.jpg',
+					title: 'Produits Vente',
+					hash: 'produits_vente'
 				},
 				{
-					url: 'assets/style/images/galerie_photo10.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo10_mini.jpg',
-					title: 'Photo10',
-					hash: 'photo-10'
+					url: 'assets/style/images/album/salle_attente.jpg',
+					thumbUrl: 'assets/style/images/album/salle_attente_thumb.jpg',
+					title: 'salle d\'attente',
+					hash: 'salle_attente'
 				},
 				{
-					url: 'assets/style/images/galerie_photo11.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo11_mini.jpg',
-					title: 'Photo11',
-					hash: 'photo-11'
+					url: 'assets/style/images/album/salle_soin.jpg',
+					thumbUrl: 'assets/style/images/album/salle_soin_thumb.jpg',
+					title: 'Salle de soin',
+					hash: 'salle_soin'
 				},
 				{
-					url: 'assets/style/images/galerie_photo12.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo12_mini.jpg',
-					title: 'Photo12',
-					hash: 'photo-12'
-				},
-				{
-					url: 'assets/style/images/galerie_photo13.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo13_mini.jpg',
-					title: 'Photo13',
-					hash: 'photo-13'
-				},
-				{
-					url: 'assets/style/images/galerie_photo14.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo14_mini.jpg',
-					title: 'Photo14',
-					hash: 'photo-14'
-				},
-				{
-					url: 'assets/style/images/galerie_photo15.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo15_mini.jpg',
-					title: 'Photo15',
-					hash: 'photo-15'
-				},
-				{
-					url: 'assets/style/images/galerie_photo16.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo16_mini.jpg',
-					title: 'Photo16',
-					hash: 'photo-16'
-				},
-				{
-					url: 'assets/style/images/galerie_photo17.jpg',
-					thumbUrl: 'assets/style/images/galerie_photo17_mini.jpg',
-					title: 'Photo17',
-					hash: 'photo-17'
+					url: 'assets/style/images/album/soin.jpg',
+					thumbUrl: 'assets/style/images/album/soin_thumb.jpg',
+					title: 'Soin',
+					hash: 'soin'
 				}
-
 			]
 		}]).getElement());
 	}
